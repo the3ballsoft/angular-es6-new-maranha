@@ -2,7 +2,7 @@
 
 This is a new angularjs-es6 maranha.
 
-### what's new? ###
+### What's new? ###
 
 * ES6 syntax for angularjs.
 * Angular UI-Router has been implemented.

@@ -1,0 +1,23 @@
+
+<div layout="row" class="all-height" >
+  <!--<t3bs-nav></t3bs-nav> -->
+  <md-sidenav class="md-whiteframe-z2"
+              md-is-locked-open="$mdMedia('gt-md')" 
+              md-component-id="left" >
+    <md-toolbar class="md-tall ">
+      <h1>Logo</h1>
+      <small>Otras cosas...</small>
+      <md-toolbar>
+    <md-content>
+      <h3>aja</h3>
+    </md-content>
+  </md-sidenav>
+
+  <div layout="column" class="relative" layout-fill>
+    <md-content flex md-scroll-y id="main-container" role="main">
+      <t3bs-header></t3bs-header> 
+      <div layout-padding ui-view></div>
+    </md-content>
+  </div>
+</div>
+

@@ -1,0 +1,24 @@
+/* > Naming convention https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md 
+ * Guide: 
+ *    u-utilityName
+ *    ComponentName
+ *    ComponentName--modifierName
+ *    ComponentName-descendentName
+ *    ComponentName.is-stateOfComponent
+ */
+
+//global vars
+@import "./partials/variables";
+
+// utilities
+@import "./partials/utils";
+
+//vendor
+@import "./../../vendor/angular-material/angular-material.scss";
+
+//app
+@import "./../app/layouts/base";
+@import "./../app/auth/login";
+@import "./../app/home/home";
+
+
